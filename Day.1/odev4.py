@@ -1,0 +1,6 @@
+text = input("bir metin girin:")
+print(f"HARF sAYISI: {len(text)}")
+kelimeListe=text.split()
+print(f"kelime satısı : {len(kelimeListe)}")
+cumlesayısı = text.split(".")
+print(f"cümle satısı : {len(cumlesayısı)-1}")
